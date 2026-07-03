@@ -30,7 +30,6 @@ Online at [arxiv.org/pdf/2210.11610.pdf](https://arxiv.org/pdf/2210.11610.pdf)
 > state-of-the-art-level performance, without any ground truth label. We conduct ablation studies and show that fine-
 > tuning on reasoning is critical for self-improvement.
 
-
 ## CLIPTEXT: A New Paradigm for Zero-shot Text Classification, by Libo Qin et al.
 
 Online at [aclanthology.org/2023.findings-acl.69.pdf](https://aclanthology.org/2023.findings-acl.69.pdf)
@@ -52,3 +51,24 @@ AI image generation such as Stable Diffusion leverage CLIP Text; some references
 * https://paperswithcode.com/paper/high-resolution-image-synthesis-with-latent
 * https://arxiv.org/abs/2006.11239
 * https://paperswithcode.com/method/u-net
+
+## TextGrad: Automatic "Differentiation" via Text, by Yuksekgonul et al.
+
+Online at [https://arxiv.org/abs/2406.07496]
+
+> AI is undergoing a paradigm shift, with breakthroughs achieved by systems orchestrating multiple large language models
+> (LLMs) and other complex components. As a result, developing principled and automated optimization methods for compound
+> AI systems is one of the most important new challenges. Neural networks faced a similar challenge in its early days
+> until backpropagation and automatic differentiation transformed the field by making optimization turn-key. Inspired by
+> this, we introduce TextGrad, a powerful framework performing automatic ``differentiation'' via text. TextGrad
+> backpropagates textual feedback provided by LLMs to improve individual components of a compound AI system. In our
+> framework, LLMs provide rich, general, natural language suggestions to optimize variables in computation graphs, ranging
+> from code snippets to molecular structures. TextGrad follows PyTorch's syntax and abstraction and is flexible and
+> easy-to-use. It works out-of-the-box for a variety of tasks, where the users only provide the objective function without
+> tuning components or prompts of the framework. We showcase TextGrad's effectiveness and generality across a diverse
+> range of applications, from question answering and molecule optimization to radiotherapy treatment planning. Without
+> modifying the framework, TextGrad improves the zero-shot accuracy of GPT-4o in Google-Proof Question Answering from 51%
+> to 55%, yields 20% relative performance gain in optimizing LeetCode-Hard coding problem solutions, improves prompts for
+> reasoning, designs new druglike small molecules with desirable in silico binding, and designs radiation oncology
+> treatment plans with high specificity. TextGrad lays a foundation to accelerate the development of the next-generation
+> of AI systems.
